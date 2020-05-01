@@ -4,6 +4,10 @@ body {
   line-height: 1;
 }
 
+.container {
+  max-width: 80%;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -67,5 +71,24 @@ textarea{
 
 .saveBtn i:hover {
   font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/* Added Clear Button Styling */ 
+.clearBtn {
+  float: center;
+  border-radius: 10px;
+  background-color: rgb(76, 170, 207);
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+}
+
+.clearBtn:Hover {
+  font-size: 23px;
+  opacity: 0.6;
   transition: all .3s ease-in-out;
 }
