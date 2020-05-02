@@ -4,10 +4,6 @@ body {
   line-height: 1;
 }
 
-.container {
-  max-width: 80%;
-}
-
 textarea{
   background: transparent;
   border: none;
